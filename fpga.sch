@@ -538,30 +538,30 @@ Wire Wire Line
 	3600 2750 3450 2750
 Wire Wire Line
 	3450 2850 3600 2850
-Text GLabel 3450 3250 0    50   Output ~ 0
+Text GLabel 7600 1650 0    50   Output ~ 0
 ESP_EN
-Text GLabel 3450 3150 0    50   Output ~ 0
+Text GLabel 7600 1550 0    50   Output ~ 0
 ESP_RST
-Text GLabel 3450 3450 0    50   BiDi ~ 0
+Text GLabel 7600 1850 0    50   BiDi ~ 0
 ESP_GPIO2
-Text GLabel 3450 3350 0    50   Output ~ 0
+Text GLabel 7600 1750 0    50   Output ~ 0
 ESP_FLASH
-Text GLabel 3450 3050 0    50   Output ~ 0
+Text GLabel 7600 1450 0    50   Output ~ 0
 ESP_RX
-Text GLabel 3450 2950 0    50   Input ~ 0
+Text GLabel 7600 1350 0    50   Input ~ 0
 ESP_TX
 Wire Wire Line
-	3450 2950 3600 2950
+	7600 1350 7750 1350
 Wire Wire Line
-	3600 3050 3450 3050
+	7750 1450 7600 1450
 Wire Wire Line
-	3600 3150 3450 3150
+	7750 1550 7600 1550
 Wire Wire Line
-	3450 3250 3600 3250
+	7600 1650 7750 1650
 Wire Wire Line
-	3600 3350 3450 3350
+	7750 1750 7600 1750
 Wire Wire Line
-	3450 3450 3600 3450
+	7600 1850 7750 1850
 Text GLabel 5550 1750 0    50   Input ~ 0
 chain_out_in2
 Text GLabel 5550 1650 0    50   Input ~ 0
@@ -887,4 +887,132 @@ Wire Wire Line
 	1350 2950 1500 2950
 Wire Wire Line
 	1500 3050 1350 3050
+Text GLabel 1350 3350 0    50   BiDi ~ 0
+UART1
+Text GLabel 3450 3450 0    50   Output ~ 0
+STEP1
+Text GLabel 3450 3350 0    50   Output ~ 0
+DIR1
+Text GLabel 1350 3450 0    50   BiDi ~ 0
+UART2
+Text GLabel 3450 3650 0    50   Output ~ 0
+STEP2
+Text GLabel 3450 3550 0    50   Output ~ 0
+DIR2
+Text GLabel 1350 3250 0    50   Output ~ 0
+ENN
+Text GLabel 1350 3150 0    50   Output ~ 0
+CLK
+Text GLabel 1350 3550 0    50   BiDi ~ 0
+UART3
+Text GLabel 3450 3850 0    50   Output ~ 0
+STEP3
+Text GLabel 3450 3750 0    50   Output ~ 0
+DIR3
+Text GLabel 9700 1750 0    50   Input ~ 0
+DIAG3
+Text GLabel 3450 4350 0    50   Output ~ 0
+STEP6
+Text GLabel 3450 4450 0    50   Output ~ 0
+DIR6
+Text GLabel 1350 3850 0    50   BiDi ~ 0
+UART6
+Text GLabel 3450 4250 0    50   Output ~ 0
+DIR5
+Text GLabel 3450 4150 0    50   Output ~ 0
+STEP5
+Text GLabel 1350 3750 0    50   BiDi ~ 0
+UART5
+Text GLabel 3450 4050 0    50   Output ~ 0
+DIR4
+Text GLabel 3450 3950 0    50   Output ~ 0
+STEP4
+Text GLabel 1350 3650 0    50   BiDi ~ 0
+UART4
+Text GLabel 9700 1850 0    50   Input ~ 0
+INDEX3
+Text GLabel 9700 1650 0    50   Input ~ 0
+INDEX2
+Text GLabel 9700 1550 0    50   Input ~ 0
+DIAG2
+Text GLabel 9700 1450 0    50   Input ~ 0
+INDEX1
+Text GLabel 9700 1350 0    50   Input ~ 0
+DIAG1
+Text GLabel 9700 1950 0    50   Input ~ 0
+INDEX4
+Text GLabel 9700 2050 0    50   Input ~ 0
+DIAG4
+Text GLabel 9700 2150 0    50   Input ~ 0
+INDEX5
+Text GLabel 9700 2250 0    50   Input ~ 0
+DIAG5
+Text GLabel 9700 2350 0    50   Input ~ 0
+INDEX6
+Text GLabel 9700 2450 0    50   Input ~ 0
+DIAG6
+Wire Wire Line
+	1350 3150 1500 3150
+Wire Wire Line
+	1500 3250 1350 3250
+Wire Wire Line
+	1350 3350 1500 3350
+Wire Wire Line
+	1500 3450 1350 3450
+Wire Wire Line
+	1350 3550 1500 3550
+Wire Wire Line
+	1500 3650 1350 3650
+Wire Wire Line
+	1350 3750 1500 3750
+Wire Wire Line
+	1500 3850 1350 3850
+Wire Wire Line
+	3450 3550 3600 3550
+Wire Wire Line
+	3450 3650 3600 3650
+Wire Wire Line
+	3600 3750 3450 3750
+Wire Wire Line
+	3450 3850 3600 3850
+Wire Wire Line
+	3600 3950 3450 3950
+Wire Wire Line
+	3450 4050 3600 4050
+Wire Wire Line
+	3600 4150 3450 4150
+Wire Wire Line
+	3450 4250 3600 4250
+Wire Wire Line
+	3450 4350 3600 4350
+Wire Wire Line
+	3450 4450 3600 4450
+Wire Wire Line
+	3600 3350 3450 3350
+Wire Wire Line
+	3450 3450 3600 3450
+Wire Wire Line
+	9700 1350 9900 1350
+Wire Wire Line
+	9700 1450 9900 1450
+Wire Wire Line
+	9700 1550 9900 1550
+Wire Wire Line
+	9900 1650 9700 1650
+Wire Wire Line
+	9700 1750 9900 1750
+Wire Wire Line
+	9900 1850 9700 1850
+Wire Wire Line
+	9700 1950 9900 1950
+Wire Wire Line
+	9900 2050 9700 2050
+Wire Wire Line
+	9700 2150 9900 2150
+Wire Wire Line
+	9900 2250 9700 2250
+Wire Wire Line
+	9700 2350 9900 2350
+Wire Wire Line
+	9900 2450 9700 2450
 $EndSCHEMATC
