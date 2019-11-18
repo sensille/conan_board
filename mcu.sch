@@ -542,15 +542,15 @@ ADC1
 Text GLabel 6150 3750 2    50   Input ~ 0
 ADC2
 Text GLabel 6150 3850 2    50   Input ~ 0
-ADC4
+ADC3
 Text GLabel 6150 3950 2    50   Input ~ 0
-ADC5
+ADC4
 Text GLabel 6150 4050 2    50   Input ~ 0
-ADC6
+ADC5
 Text GLabel 6150 4150 2    50   Input ~ 0
-ADC7
+ADC6
 Text GLabel 6150 4250 2    50   Input ~ 0
-ADC8
+ADC7
 Wire Wire Line
 	5900 3650 6150 3650
 Wire Wire Line
@@ -565,8 +565,6 @@ Wire Wire Line
 	6150 4050 5900 4050
 Wire Wire Line
 	5900 4150 6150 4150
-Wire Wire Line
-	6150 4250 5900 4250
 Wire Wire Line
 	5900 4950 6050 4950
 Wire Wire Line
@@ -882,4 +880,6 @@ NoConn ~ 5900 4550
 NoConn ~ 5900 4850
 NoConn ~ 4600 4450
 NoConn ~ 4600 4350
+Wire Wire Line
+	5900 4250 6150 4250
 $EndSCHEMATC
