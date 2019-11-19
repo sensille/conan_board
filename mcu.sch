@@ -882,4 +882,6 @@ NoConn ~ 4600 4450
 NoConn ~ 4600 4350
 Wire Wire Line
 	5900 4250 6150 4250
+Text Notes 6850 4250 0    50   ~ 0
+For the sake of ERC this pin sources GND.
 $EndSCHEMATC
