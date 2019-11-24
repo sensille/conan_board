@@ -40,14 +40,6 @@ $EndComp
 Wire Wire Line
 	3500 3150 4150 3150
 Wire Wire Line
-	4150 3150 4150 3100
-Wire Wire Line
-	4150 3100 4900 3100
-Wire Wire Line
-	3500 3250 4150 3250
-Wire Wire Line
-	4150 3250 4150 3200
-Wire Wire Line
 	4150 3200 4900 3200
 Wire Wire Line
 	3500 3350 4900 3350
@@ -199,7 +191,7 @@ UART
 Wire Wire Line
 	5950 2800 6150 2800
 Wire Wire Line
-	5950 3000 6600 3000
+	5950 3000 6100 3000
 Text HLabel 6600 3150 2    50   Input ~ 0
 ENN
 Text HLabel 6600 3250 2    50   Input ~ 0
@@ -383,4 +375,39 @@ NoConn ~ 5950 2900
 NoConn ~ 4900 3750
 Wire Wire Line
 	5950 3150 6600 3150
+$Comp
+L Device:R R39
+U 1 1 5DDFDE6A
+P 6250 3000
+AR Path="/5D6EA3EE/5DD35E7A/5DDFDE6A" Ref="R39"  Part="1" 
+AR Path="/5D6EA3EE/5DBABBD9/5DDFDE6A" Ref="R36"  Part="1" 
+AR Path="/5D6EA3EE/5DD3C258/5DDFDE6A" Ref="R42"  Part="1" 
+AR Path="/5D6EA3EE/5DD59D5A/5DDFDE6A" Ref="R45"  Part="1" 
+AR Path="/5D6EA3EE/5DD5E859/5DDFDE6A" Ref="R48"  Part="1" 
+AR Path="/5D6EA3EE/5DD63379/5DDFDE6A" Ref="R97"  Part="1" 
+F 0 "R39" V 6150 3000 50  0000 C CNN
+F 1 "1k" V 6250 3000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6180 3000 50  0001 C CNN
+F 3 "~" H 6250 3000 50  0001 C CNN
+	1    6250 3000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6400 3000 6600 3000
+Wire Wire Line
+	4150 3150 4150 3200
+Wire Wire Line
+	4250 3250 4250 3100
+Wire Wire Line
+	4250 3100 4900 3100
+Wire Wire Line
+	3500 3250 4250 3250
+Text Label 4600 3200 0    50   ~ 0
+OA1
+Text Label 4600 3100 0    50   ~ 0
+OA2
+Text Label 4600 3350 0    50   ~ 0
+OB1
+Text Label 4600 3450 0    50   ~ 0
+OB2
 $EndSCHEMATC
