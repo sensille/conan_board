@@ -64,7 +64,7 @@ F 3 "" H 8500 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8500 3800 8800 3800
+	8500 3800 8750 3800
 Connection ~ 8500 3800
 $Comp
 L Device:C C?
@@ -2115,7 +2115,6 @@ F 3 "" H 5650 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 6500 1300
-NoConn ~ 8800 3950
 NoConn ~ 5350 1450
 Wire Wire Line
 	2850 5450 2850 5350
@@ -2326,4 +2325,11 @@ F 4 "ECP5U12" H 2250 4000 60  0001 R CNN "manf#"
 	1    2100 4050
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	8800 3950 8750 3950
+Wire Wire Line
+	8750 3950 8750 3800
+Connection ~ 8750 3800
+Wire Wire Line
+	8750 3800 8800 3800
 $EndSCHEMATC
