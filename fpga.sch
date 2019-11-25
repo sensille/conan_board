@@ -1022,7 +1022,6 @@ F 4 "ECP5U12" H 3900 1250 60  0001 R CNN "manf#"
 	1    0    0    -1  
 $EndComp
 NoConn ~ 3750 2600
-NoConn ~ 7800 1500
 NoConn ~ 7800 1600
 NoConn ~ 3750 3000
 NoConn ~ 3750 3700
@@ -1108,4 +1107,7 @@ Wire Wire Line
 	5700 2200 5550 2200
 Text GLabel 5550 2200 0    50   BiDi ~ 0
 UART6
+Wire Wire Line
+	7800 1500 7650 1500
+NoConn ~ 7650 1500
 $EndSCHEMATC
