@@ -265,9 +265,9 @@ Text GLabel 3600 2000 0    50   Output ~ 0
 ESP_EN
 Text GLabel 3600 1900 0    50   Output ~ 0
 ESP_RST
-Text GLabel 3600 2200 0    50   BiDi ~ 0
+Text GLabel 3600 2400 0    50   BiDi ~ 0
 ESP_GPIO2
-Text GLabel 3600 2100 0    50   Output ~ 0
+Text GLabel 3600 2500 0    50   Output ~ 0
 ESP_FLASH
 Text GLabel 3600 1800 0    50   Output ~ 0
 ESP_RX
@@ -282,9 +282,9 @@ Wire Wire Line
 Wire Wire Line
 	3600 2000 3750 2000
 Wire Wire Line
-	3750 2100 3600 2100
+	3750 2500 3600 2500
 Wire Wire Line
-	3600 2200 3750 2200
+	3600 2400 3750 2400
 Text GLabel 7650 3400 0    50   Input ~ 0
 chain_out_in2
 Text GLabel 7650 3300 0    50   Input ~ 0
@@ -1038,11 +1038,9 @@ Wire Wire Line
 NoConn ~ 3600 1300
 NoConn ~ 3600 1400
 Wire Wire Line
-	3600 2300 3750 2300
-Wire Wire Line
-	3750 2400 3600 2400
-NoConn ~ 3600 2300
-NoConn ~ 3600 2400
+	3750 2200 3600 2200
+NoConn ~ 3750 2100
+NoConn ~ 3600 2200
 Wire Wire Line
 	3600 2700 3750 2700
 Wire Wire Line
@@ -1072,8 +1070,8 @@ Wire Wire Line
 	3600 2900 3750 2900
 NoConn ~ 3600 2900
 Wire Wire Line
-	3600 2500 3750 2500
-NoConn ~ 3600 2500
+	3600 2300 3750 2300
+NoConn ~ 3600 2300
 Wire Wire Line
 	3600 1500 3750 1500
 NoConn ~ 3600 1500
