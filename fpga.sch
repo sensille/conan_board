@@ -341,9 +341,9 @@ Text GLabel 1600 2200 0    50   BiDi ~ 0
 exp1_1
 Text GLabel 1600 2300 0    50   BiDi ~ 0
 exp1_2
-Text GLabel 1600 2400 0    50   BiDi ~ 0
+Text GLabel 1550 7550 0    50   BiDi ~ 0
 exp1_3
-Text GLabel 1600 2500 0    50   BiDi ~ 0
+Text GLabel 1550 7650 0    50   BiDi ~ 0
 exp1_4
 Text GLabel 1600 2600 0    50   BiDi ~ 0
 exp1_5
@@ -453,10 +453,6 @@ Wire Wire Line
 	1750 2700 1600 2700
 Wire Wire Line
 	1600 2600 1750 2600
-Wire Wire Line
-	1750 2500 1600 2500
-Wire Wire Line
-	1600 2400 1750 2400
 Wire Wire Line
 	1750 2300 1600 2300
 Wire Wire Line
@@ -1060,13 +1056,11 @@ Wire Wire Line
 	3600 3800 3750 3800
 Wire Wire Line
 	3750 3900 3600 3900
-NoConn ~ 3600 3800
 NoConn ~ 3600 3900
 Wire Wire Line
 	3600 4000 3750 4000
 Wire Wire Line
 	3750 4100 3600 4100
-NoConn ~ 3600 4000
 NoConn ~ 3600 4100
 Wire Wire Line
 	3600 4200 3750 4200
@@ -1088,10 +1082,8 @@ Wire Wire Line
 NoConn ~ 9750 4000
 Wire Wire Line
 	1550 7550 1700 7550
-NoConn ~ 1550 7550
 Wire Wire Line
 	1550 7650 1700 7650
-NoConn ~ 1550 7650
 Text Notes 2650 7550 0    50   ~ 0
 Ununsed with wire are free to assign
 NoConn ~ 9900 1900
@@ -1110,4 +1102,8 @@ UART6
 Wire Wire Line
 	7800 1500 7650 1500
 NoConn ~ 7650 1500
+NoConn ~ 1750 2400
+NoConn ~ 1750 2500
+NoConn ~ 3600 3800
+NoConn ~ 3600 4000
 $EndSCHEMATC
