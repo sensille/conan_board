@@ -142,11 +142,11 @@ F 3 "~" H 4700 6750 50  0001 C CNN
 	1    4700 6750
 	-1   0    0    1   
 $EndComp
-Text GLabel 1300 5550 0    50   Input ~ 0
+Text GLabel 3350 4300 0    50   Input ~ 0
 CLK_50MHz
 Wire Wire Line
-	1300 5550 1700 5550
-Text Notes 1300 5550 0    50   ~ 0
+	3350 4300 3750 4300
+Text Notes 3350 4300 0    50   ~ 0
 PCLKT_0
 $Comp
 L Device:R R12
@@ -1063,7 +1063,7 @@ NoConn ~ 3600 4100
 Wire Wire Line
 	3600 4200 3750 4200
 Wire Wire Line
-	3750 4300 3600 4300
+	1700 5550 1550 5550
 NoConn ~ 3600 4200
 Wire Wire Line
 	3600 2900 3750 2900
@@ -1103,6 +1103,6 @@ NoConn ~ 1750 2400
 NoConn ~ 1750 2500
 NoConn ~ 3600 3800
 NoConn ~ 3600 4000
-Text GLabel 3600 4300 0    50   Input ~ 0
+Text GLabel 1550 5550 0    50   Input ~ 0
 CLK_48MHz
 $EndSCHEMATC
