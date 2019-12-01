@@ -48,17 +48,6 @@ F 3 "~" H 2500 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x04_Counter_Clockwise J44
-U 1 1 5DF3BA1E
-P 2050 5650
-F 0 "J44" H 2100 5967 50  0000 C CNN
-F 1 "esp8266" H 2100 5876 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 2050 5650 50  0001 C CNN
-F 3 "~" H 2050 5650 50  0001 C CNN
-	1    2050 5650
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0106
 U 1 1 5DF3C926
 P 2550 5550
@@ -893,6 +882,17 @@ F 1 "Exp1_R" H 3950 3150 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 3800 3850 50  0001 C CNN
 F 3 "~" H 3800 3850 50  0001 C CNN
 	1    3800 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J44
+U 1 1 5DFD1B75
+P 2050 5650
+F 0 "J44" H 2100 5967 50  0000 C CNN
+F 1 "ESP8266" H 2100 5876 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 2050 5650 50  0001 C CNN
+F 3 "~" H 2050 5650 50  0001 C CNN
+	1    2050 5650
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
