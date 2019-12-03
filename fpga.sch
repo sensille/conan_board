@@ -169,7 +169,7 @@ Text GLabel 9750 1500 0    50   Output ~ 0
 PWM3
 Text GLabel 9750 1600 0    50   Output ~ 0
 PWM4
-Text GLabel 9750 1700 0    50   Output ~ 0
+Text GLabel 1600 4400 0    50   Output ~ 0
 PWM5
 Text GLabel 9750 1800 0    50   Output ~ 0
 PWM6
@@ -188,7 +188,7 @@ Wire Wire Line
 Wire Wire Line
 	9900 1600 9750 1600
 Wire Wire Line
-	9750 1700 9900 1700
+	1600 4400 1750 4400
 Wire Wire Line
 	9900 1800 9750 1800
 Wire Wire Line
@@ -357,7 +357,7 @@ Text GLabel 1600 3100 0    50   BiDi ~ 0
 exp1_10
 Text GLabel 1600 3200 0    50   BiDi ~ 0
 exp1_11
-Text GLabel 1600 3400 0    50   BiDi ~ 0
+Text GLabel 1600 4300 0    50   BiDi ~ 0
 exp1_12
 Text GLabel 1600 3500 0    50   BiDi ~ 0
 exp1_13
@@ -438,7 +438,7 @@ Wire Wire Line
 Wire Wire Line
 	1600 3500 1750 3500
 Wire Wire Line
-	1750 3400 1600 3400
+	1750 4300 1600 4300
 Wire Wire Line
 	1600 3200 1750 3200
 Wire Wire Line
@@ -487,14 +487,14 @@ Wire Wire Line
 	7800 2000 7650 2000
 Wire Wire Line
 	7650 2100 7800 2100
-Text GLabel 1500 6650 0    50   BiDi ~ 0
+Text GLabel 1500 6450 0    50   BiDi ~ 0
 display1
 Wire Wire Line
-	1500 6650 1700 6650
-Text GLabel 1500 6450 0    50   BiDi ~ 0
+	1500 6450 1700 6450
+Text GLabel 1500 6050 0    50   BiDi ~ 0
 display2
 Wire Wire Line
-	1500 6450 1700 6450
+	1500 6050 1700 6050
 Text GLabel 1500 5850 0    50   BiDi ~ 0
 display3
 Wire Wire Line
@@ -598,9 +598,9 @@ Text GLabel 1600 1600 0    50   Output ~ 0
 STEP2
 Text GLabel 1600 1500 0    50   Output ~ 0
 DIR2
-Text GLabel 1600 4400 0    50   Output ~ 0
+Text GLabel 9750 1700 0    50   Output ~ 0
 ENN
-Text GLabel 1600 4300 0    50   Output ~ 0
+Text GLabel 1600 3400 0    50   Output ~ 0
 CLK
 Text GLabel 1600 2100 0    50   BiDi ~ 0
 UART3
@@ -649,9 +649,9 @@ INDEX6
 Text GLabel 650  4400 0    50   Input ~ 0
 DIAG6
 Wire Wire Line
-	1600 4300 1750 4300
+	1600 3400 1750 3400
 Wire Wire Line
-	1750 4400 1600 4400
+	9900 1700 9750 1700
 Wire Wire Line
 	1600 1900 1750 1900
 Wire Wire Line
