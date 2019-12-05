@@ -161,9 +161,9 @@ F 3 "~" H 10150 5850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10300 5850 10400 5850
-Text GLabel 9750 1300 0    50   Output ~ 0
+Text GLabel 7650 4400 0    50   Output ~ 0
 PWM1
-Text GLabel 9750 1400 0    50   Output ~ 0
+Text GLabel 7650 3500 0    50   Output ~ 0
 PWM2
 Text GLabel 9750 1500 0    50   Output ~ 0
 PWM3
@@ -180,9 +180,9 @@ PWM8
 Text GLabel 9750 2300 0    50   Output ~ 0
 PWM9
 Wire Wire Line
-	9750 1300 9900 1300
+	7650 4400 7800 4400
 Wire Wire Line
-	9750 1400 9900 1400
+	7650 3500 7800 3500
 Wire Wire Line
 	9750 1500 9900 1500
 Wire Wire Line
@@ -325,9 +325,9 @@ Wire Wire Line
 	700  3500 850  3500
 Wire Wire Line
 	900  4200 750  4200
-Text GLabel 7650 4000 0    50   BiDi ~ 0
+Text GLabel 700  4450 0    50   BiDi ~ 0
 pmod1_4
-Text GLabel 7650 3900 0    50   BiDi ~ 0
+Text GLabel 750  4600 0    50   BiDi ~ 0
 pmod1_3
 Text GLabel 7650 4100 0    50   BiDi ~ 0
 pmod2_4
@@ -335,7 +335,7 @@ Text GLabel 7650 4200 0    50   BiDi ~ 0
 pmod2_3
 Text GLabel 7650 4300 0    50   BiDi ~ 0
 pmod2_2
-Text GLabel 7650 4400 0    50   BiDi ~ 0
+Text GLabel 800  4850 0    50   BiDi ~ 0
 pmod2_1
 Text GLabel 1600 2200 0    50   BiDi ~ 0
 exp1_1
@@ -387,36 +387,36 @@ Text GLabel 5550 3600 0    50   BiDi ~ 0
 exp2_7
 Text GLabel 5550 4100 0    50   BiDi ~ 0
 exp2_8
-Text GLabel 750  4950 0    50   BiDi ~ 0
+Text GLabel 5550 1700 0    50   BiDi ~ 0
 exp2_10
-Text GLabel 700  5100 0    50   BiDi ~ 0
+Text GLabel 7650 4000 0    50   BiDi ~ 0
 exp2_11
-Text GLabel 700  4600 0    50   BiDi ~ 0
+Text GLabel 5550 2300 0    50   BiDi ~ 0
 exp2_12
-Text GLabel 650  4750 0    50   BiDi ~ 0
+Text GLabel 5550 1300 0    50   BiDi ~ 0
 exp2_13
-Text GLabel 7650 1700 0    50   BiDi ~ 0
+Text GLabel 5550 1500 0    50   BiDi ~ 0
 exp2_14
-Text GLabel 7650 1800 0    50   BiDi ~ 0
+Text GLabel 5550 1400 0    50   BiDi ~ 0
 exp2_15
-Text GLabel 7650 2000 0    50   BiDi ~ 0
+Text GLabel 5550 1600 0    50   BiDi ~ 0
 exp2_16
-Text GLabel 7650 2100 0    50   BiDi ~ 0
+Text GLabel 5550 2500 0    50   BiDi ~ 0
 exp2_17
-Text GLabel 600  5200 0    50   BiDi ~ 0
+Text GLabel 7650 3900 0    50   BiDi ~ 0
 exp2_9
-Text GLabel 7650 3500 0    50   BiDi ~ 0
+Text GLabel 800  4750 0    50   BiDi ~ 0
 pmod1_1
 Text GLabel 7650 3600 0    50   BiDi ~ 0
 pmod1_2
 Wire Wire Line
-	7650 3500 7800 3500
+	800  4750 950  4750
 Wire Wire Line
 	7800 3600 7650 3600
 Wire Wire Line
-	7650 3900 7800 3900
+	750  4600 900  4600
 Wire Wire Line
-	7800 4000 7650 4000
+	850  4450 700  4450
 Wire Wire Line
 	7650 4100 7800 4100
 Wire Wire Line
@@ -424,7 +424,7 @@ Wire Wire Line
 Wire Wire Line
 	7650 4300 7800 4300
 Wire Wire Line
-	7800 4400 7650 4400
+	950  4850 800  4850
 Wire Wire Line
 	3600 1600 3750 1600
 Wire Wire Line
@@ -470,23 +470,23 @@ Wire Wire Line
 Wire Wire Line
 	5700 4100 5550 4100
 Wire Wire Line
-	600  5200 750  5200
+	7650 3900 7800 3900
 Wire Wire Line
-	900  4950 750  4950
+	5700 1700 5550 1700
 Wire Wire Line
-	700  5100 850  5100
+	7650 4000 7800 4000
 Wire Wire Line
-	850  4600 700  4600
+	5700 2300 5550 2300
 Wire Wire Line
-	650  4750 800  4750
+	5550 1300 5700 1300
 Wire Wire Line
-	7800 1700 7650 1700
+	5700 1500 5550 1500
 Wire Wire Line
-	7650 1800 7800 1800
+	5550 1400 5700 1400
 Wire Wire Line
-	7800 2000 7650 2000
+	5700 1600 5550 1600
 Wire Wire Line
-	7650 2100 7800 2100
+	5550 2500 5700 2500
 Text GLabel 1500 6450 0    50   BiDi ~ 0
 display1
 Wire Wire Line
@@ -610,15 +610,15 @@ Text GLabel 1600 1700 0    50   Output ~ 0
 DIR3
 Text GLabel 1500 7350 0    50   Input ~ 0
 DIAG3
-Text GLabel 5550 1700 0    50   Output ~ 0
+Text GLabel 5550 2700 0    50   Output ~ 0
 STEP6
-Text GLabel 5550 1800 0    50   Output ~ 0
+Text GLabel 5550 2600 0    50   Output ~ 0
 DIR6
-Text GLabel 5550 1600 0    50   Output ~ 0
+Text GLabel 5550 3500 0    50   Output ~ 0
 DIR5
-Text GLabel 5550 1500 0    50   Output ~ 0
+Text GLabel 5550 3100 0    50   Output ~ 0
 STEP5
-Text GLabel 5550 2000 0    50   BiDi ~ 0
+Text GLabel 5550 2800 0    50   BiDi ~ 0
 UART5
 Text GLabel 5550 2900 0    50   Output ~ 0
 DIR4
@@ -640,13 +640,13 @@ Text GLabel 5550 3900 0    50   Input ~ 0
 INDEX4
 Text GLabel 5550 3400 0    50   Input ~ 0
 DIAG4
-Text GLabel 5550 2600 0    50   Input ~ 0
+Text GLabel 5550 3700 0    50   Input ~ 0
 INDEX5
-Text GLabel 5550 2700 0    50   Input ~ 0
+Text GLabel 5550 2000 0    50   Input ~ 0
 DIAG5
-Text GLabel 5550 2800 0    50   Input ~ 0
+Text GLabel 5550 2200 0    50   Input ~ 0
 INDEX6
-Text GLabel 650  4400 0    50   Input ~ 0
+Text GLabel 5550 1800 0    50   Input ~ 0
 DIAG6
 Wire Wire Line
 	1600 3400 1750 3400
@@ -661,7 +661,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 1900 5550 1900
 Wire Wire Line
-	5550 2000 5700 2000
+	5550 2800 5700 2800
 Wire Wire Line
 	1600 1500 1750 1500
 Wire Wire Line
@@ -675,13 +675,13 @@ Wire Wire Line
 Wire Wire Line
 	5550 2900 5700 2900
 Wire Wire Line
-	5700 1500 5550 1500
+	5700 3100 5550 3100
 Wire Wire Line
-	5550 1600 5700 1600
+	5550 3500 5700 3500
 Wire Wire Line
-	5550 1700 5700 1700
+	5550 2700 5700 2700
 Wire Wire Line
-	5550 1800 5700 1800
+	5550 2600 5700 2600
 Wire Wire Line
 	1750 1300 1600 1300
 Wire Wire Line
@@ -703,13 +703,13 @@ Wire Wire Line
 Wire Wire Line
 	5700 3400 5550 3400
 Wire Wire Line
-	5550 2600 5700 2600
+	5550 3700 5700 3700
 Wire Wire Line
-	5700 2700 5550 2700
+	5700 2000 5550 2000
 Wire Wire Line
-	5550 2800 5700 2800
+	5550 2200 5700 2200
 Wire Wire Line
-	800  4400 650  4400
+	5700 1800 5550 1800
 Wire Wire Line
 	6900 5600 7150 5600
 Wire Wire Line
@@ -1093,8 +1093,8 @@ NoConn ~ 5700 3300
 NoConn ~ 5700 2400
 NoConn ~ 5700 2100
 Wire Wire Line
-	5700 2200 5550 2200
-Text GLabel 5550 2200 0    50   BiDi ~ 0
+	5700 3000 5550 3000
+Text GLabel 5550 3000 0    50   BiDi ~ 0
 UART6
 Wire Wire Line
 	7800 1500 7650 1500
