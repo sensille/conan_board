@@ -504,29 +504,14 @@ Wire Wire Line
 Wire Wire Line
 	5900 4950 6050 4950
 Wire Wire Line
-	6050 4950 6050 6550
+	6050 4950 6050 5750
 Wire Wire Line
 	5900 5050 5950 5050
-Wire Wire Line
-	5950 5050 5950 5400
 Connection ~ 5400 5400
-Text Label 6050 6550 1    50   ~ 0
+Text Label 6050 5750 1    50   ~ 0
 TX
-Text Label 5950 6550 1    50   ~ 0
+Text Label 5950 5750 1    50   ~ 0
 RX
-$Comp
-L Device:R R54
-U 1 1 5DCC11DF
-P 5950 5600
-F 0 "R54" H 6050 5650 50  0000 L CNN
-F 1 "3.3k" V 5950 5500 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5880 5600 50  0001 C CNN
-F 3 "~" H 5950 5600 50  0001 C CNN
-	1    5950 5600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5950 5750 5950 6550
 $Comp
 L Device:R R52
 U 1 1 5DCC22E5
@@ -539,34 +524,16 @@ F 3 "~" H 4150 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5850 6350 5850 6550
-$Comp
-L Device:R R53
-U 1 1 5DCC32C6
-P 5800 5400
-F 0 "R53" V 5850 5250 50  0000 C CNN
-F 1 "2.2k" V 5800 5400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5730 5400 50  0001 C CNN
-F 3 "~" H 5800 5400 50  0001 C CNN
-	1    5800 5400
-	0    1    1    0   
-$EndComp
-Connection ~ 5950 5400
-Wire Wire Line
-	5950 5400 5950 5450
-Wire Wire Line
-	5650 5400 5550 5400
-Wire Wire Line
-	5550 5400 5400 5400
+	5850 5400 5400 5400
 $Comp
 L Connector:Conn_01x03_Male J24
 U 1 1 5DC6FFBD
-P 5950 6750
-F 0 "J24" V 6104 6562 50  0000 R CNN
-F 1 "UART2" V 6013 6562 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5950 6750 50  0001 C CNN
-F 3 "~" H 5950 6750 50  0001 C CNN
-	1    5950 6750
+P 5950 5950
+F 0 "J24" V 6104 5762 50  0000 R CNN
+F 1 "UART2" V 6013 5762 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5950 5950 50  0001 C CNN
+F 3 "~" H 5950 5950 50  0001 C CNN
+	1    5950 5950
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -611,11 +578,6 @@ Wire Wire Line
 	3400 1750 3400 2400
 Wire Wire Line
 	3400 2400 3300 2400
-Connection ~ 5550 5400
-Wire Wire Line
-	5550 6350 5850 6350
-Wire Wire Line
-	5550 5400 5550 6350
 $Comp
 L Connector:Conn_01x03_Male J23
 U 1 1 5DCB2CD1
@@ -903,4 +865,8 @@ Wire Wire Line
 	7000 4000 7300 4000
 Wire Wire Line
 	7000 4350 7000 4300
+Wire Wire Line
+	5850 5400 5850 5750
+Wire Wire Line
+	5950 5050 5950 5750
 $EndSCHEMATC
