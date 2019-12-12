@@ -1213,8 +1213,6 @@ Wire Wire Line
 	8250 3800 8500 3800
 Connection ~ 8250 1150
 Wire Wire Line
-	8250 1150 7650 1150
-Wire Wire Line
 	8250 2500 8500 2500
 Connection ~ 8250 2500
 Wire Wire Line
@@ -2101,4 +2099,28 @@ Wire Wire Line
 	4800 6250 5000 6250
 Wire Wire Line
 	4800 5700 5000 5700
+$Comp
+L Device:C C?
+U 1 1 5E1E9C6E
+P 7900 1900
+AR Path="/5E1E9C6E" Ref="C?"  Part="1" 
+AR Path="/5C829505/5E1E9C6E" Ref="C8"  Part="1" 
+F 0 "C8" H 8015 1946 50  0000 L CNN
+F 1 "1uF" H 8015 1855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7938 1750 50  0001 C CNN
+F 3 "~" H 7900 1900 50  0001 C CNN
+	1    7900 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 2050 7900 2900
+Wire Wire Line
+	7900 2900 7650 2900
+Wire Wire Line
+	7900 1750 7900 1150
+Wire Wire Line
+	8250 1150 7900 1150
+Wire Wire Line
+	7900 1150 7650 1150
+Connection ~ 7900 1150
 $EndSCHEMATC
