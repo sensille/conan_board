@@ -129,16 +129,9 @@ F 3 "" H 7300 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7300 4400 7300 4300
+	7300 4400 7300 4000
 Wire Wire Line
-	7300 4300 7000 4300
-Wire Wire Line
-	6900 4300 6900 4350
-Wire Wire Line
-	7000 4350 7000 4300
-Connection ~ 7000 4300
-Wire Wire Line
-	7000 4300 6900 4300
+	6900 4000 6900 4350
 Wire Wire Line
 	4150 1750 4550 1750
 Wire Wire Line
@@ -824,7 +817,7 @@ NoConn ~ 4600 4450
 NoConn ~ 4600 4350
 Wire Wire Line
 	5900 4250 6150 4250
-Text Notes 6850 4250 0    50   ~ 0
+Text Notes 6850 3950 0    50   ~ 0
 For the sake of ERC this pin sources GND.
 Text GLabel 6150 4350 2    50   Output ~ 0
 CLK_48MHz
@@ -892,4 +885,7 @@ Wire Wire Line
 	7650 1950 8050 1950
 Wire Wire Line
 	7650 2600 8050 2600
+Wire Wire Line
+	6900 4000 7300 4000
+NoConn ~ 7000 4350
 $EndSCHEMATC
