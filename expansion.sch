@@ -19,7 +19,7 @@ L Connector_Generic:Conn_02x06_Top_Bottom J43
 U 1 1 5DF2E4AB
 P 2050 1400
 F 0 "J43" H 2100 1817 50  0000 C CNN
-F 1 "pmod" H 2100 1726 50  0000 C CNN
+F 1 "PinH 2x6" H 2100 1726 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Horizontal" H 2050 1400 50  0001 C CNN
 F 3 "~" H 2050 1400 50  0001 C CNN
 	1    2050 1400
@@ -30,7 +30,7 @@ L Connector:Conn_01x06_Male J46
 U 1 1 5DF3827D
 P 2900 6700
 F 0 "J46" H 3008 7081 50  0000 C CNN
-F 1 "Chain_out" H 3008 6990 50  0000 C CNN
+F 1 "PinHH 6" H 3008 6990 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal" H 2900 6700 50  0001 C CNN
 F 3 "~" H 2900 6700 50  0001 C CNN
 	1    2900 6700
@@ -41,7 +41,7 @@ L Connector:Conn_01x06_Female J45
 U 1 1 5DF38B95
 P 2500 6700
 F 0 "J45" H 2528 6676 50  0000 L CNN
-F 1 "Chain_in" H 2300 7000 50  0000 L CNN
+F 1 "PinHHF 6" H 2300 7000 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Horizontal" H 2500 6700 50  0001 C CNN
 F 3 "~" H 2500 6700 50  0001 C CNN
 	1    2500 6700
@@ -772,7 +772,7 @@ L Connector_Generic:Conn_02x08_Counter_Clockwise J48
 U 1 1 5DF8701A
 P 4500 1500
 F 0 "J48" H 4550 2017 50  0000 C CNN
-F 1 "Display" H 4550 1926 50  0000 C CNN
+F 1 "PinH 2x8" H 4550 1926 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 4500 1500 50  0001 C CNN
 F 3 "~" H 4500 1500 50  0001 C CNN
 	1    4500 1500
@@ -845,7 +845,7 @@ L Connector:Conn_01x12_Male J54
 U 1 1 5DD99E76
 P 6650 3850
 F 0 "J54" H 6800 4500 50  0000 R CNN
-F 1 "Exp2_L" H 6900 3150 50  0000 R CNN
+F 1 "PinH 12" H 6900 3150 50  0000 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 6650 3850 50  0001 C CNN
 F 3 "~" H 6650 3850 50  0001 C CNN
 	1    6650 3850
@@ -856,7 +856,7 @@ L Connector:Conn_01x12_Male J55
 U 1 1 5DD9C826
 P 6800 3850
 F 0 "J55" H 6850 4500 50  0000 C CNN
-F 1 "Exp2_R" H 6950 3150 50  0000 C CNN
+F 1 "PinH 12" H 6950 3150 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 6800 3850 50  0001 C CNN
 F 3 "~" H 6800 3850 50  0001 C CNN
 	1    6800 3850
@@ -867,7 +867,7 @@ L Connector:Conn_01x12_Male J47
 U 1 1 5DDB0EDE
 P 3650 3850
 F 0 "J47" H 3800 4500 50  0000 R CNN
-F 1 "Exp1_L" H 3900 3150 50  0000 R CNN
+F 1 "PinH 12" H 3900 3150 50  0000 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 3650 3850 50  0001 C CNN
 F 3 "~" H 3650 3850 50  0001 C CNN
 	1    3650 3850
@@ -878,7 +878,7 @@ L Connector:Conn_01x12_Male J49
 U 1 1 5DDB0EE4
 P 3800 3850
 F 0 "J49" H 3850 4500 50  0000 C CNN
-F 1 "Exp1_R" H 3950 3150 50  0000 C CNN
+F 1 "PinH 12" H 3950 3150 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 3800 3850 50  0001 C CNN
 F 3 "~" H 3800 3850 50  0001 C CNN
 	1    3800 3850
@@ -895,4 +895,18 @@ F 3 "~" H 2050 5650 50  0001 C CNN
 	1    2050 5650
 	1    0    0    -1  
 $EndComp
+Text Notes 2300 1050 0    50   ~ 0
+PMOD
+Text Notes 4050 1100 0    50   ~ 0
+Display
+Text Notes 3450 3000 0    50   ~ 0
+Expansion Left
+Text Notes 6450 3000 0    50   ~ 0
+Expansion Right
+Text Notes 1400 5450 0    50   ~ 0
+ESP8266
+Text Notes 1850 6350 0    50   ~ 0
+Chain In
+Text Notes 3200 6350 0    50   ~ 0
+Chain Out
 $EndSCHEMATC

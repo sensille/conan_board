@@ -127,7 +127,7 @@ L Jumper:Jumper_3_Bridged12 JP5
 U 1 1 5DC07985
 P 1500 1800
 F 0 "JP5" H 1500 2004 50  0000 C CNN
-F 1 "Jumper_3_Bridged12" H 1500 1913 50  0000 C CNN
+F 1 "PinH 3" H 1500 1913 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1500 1800 50  0001 C CNN
 F 3 "~" H 1500 1800 50  0001 C CNN
 	1    1500 1800
@@ -141,7 +141,7 @@ L Jumper:Jumper_3_Bridged12 JP6
 U 1 1 5DC1091E
 P 1500 3150
 F 0 "JP6" H 1500 3354 50  0000 C CNN
-F 1 "Jumper_3_Bridged12" H 1500 3263 50  0000 C CNN
+F 1 "PinH 3" H 1500 3263 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1500 3150 50  0001 C CNN
 F 3 "~" H 1500 3150 50  0001 C CNN
 	1    1500 3150
@@ -152,7 +152,7 @@ L Jumper:Jumper_3_Bridged12 JP7
 U 1 1 5DC10C8C
 P 1500 4500
 F 0 "JP7" H 1500 4704 50  0000 C CNN
-F 1 "Jumper_3_Bridged12" H 1500 4613 50  0000 C CNN
+F 1 "PinH 3" H 1500 4613 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1500 4500 50  0001 C CNN
 F 3 "~" H 1500 4500 50  0001 C CNN
 	1    1500 4500
@@ -210,7 +210,7 @@ L Jumper:Jumper_3_Bridged12 JP8
 U 1 1 5DC226C8
 P 6850 1800
 F 0 "JP8" H 6850 2004 50  0000 C CNN
-F 1 "Jumper_3_Bridged12" H 6850 1913 50  0000 C CNN
+F 1 "PinH 3" H 6850 1913 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6850 1800 50  0001 C CNN
 F 3 "~" H 6850 1800 50  0001 C CNN
 	1    6850 1800
@@ -224,7 +224,7 @@ L Jumper:Jumper_3_Bridged12 JP9
 U 1 1 5DC226D4
 P 6850 3150
 F 0 "JP9" H 6850 3354 50  0000 C CNN
-F 1 "Jumper_3_Bridged12" H 6850 3263 50  0000 C CNN
+F 1 "PinH 3" H 6850 3263 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6850 3150 50  0001 C CNN
 F 3 "~" H 6850 3150 50  0001 C CNN
 	1    6850 3150
@@ -235,7 +235,7 @@ L Jumper:Jumper_3_Bridged12 JP10
 U 1 1 5DC226DE
 P 6850 4500
 F 0 "JP10" H 6850 4704 50  0000 C CNN
-F 1 "Jumper_3_Bridged12" H 6850 4613 50  0000 C CNN
+F 1 "PinH 3" H 6850 4613 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6850 4500 50  0001 C CNN
 F 3 "~" H 6850 4500 50  0001 C CNN
 	1    6850 4500
